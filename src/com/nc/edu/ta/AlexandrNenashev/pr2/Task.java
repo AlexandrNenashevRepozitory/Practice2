@@ -1,5 +1,5 @@
 package com.nc.edu.ta.AlexandrNenashev.pr2;
-
+//Рабочая версия
 public class Task {
     String title;
     boolean active;
