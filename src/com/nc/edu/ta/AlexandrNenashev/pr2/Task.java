@@ -1,5 +1,5 @@
 package com.nc.edu.ta.AlexandrNenashev.pr2;
-//Рабочая версия
+
 public class Task {
     String title;
     boolean active;
@@ -10,20 +10,40 @@ public class Task {
     boolean repeated;
 
 
+    /**
+     * getTitle возвращает значение title. title - название задачи.
+     */
     public String getTitle() {
 
         return title;
     }
+
+
+    /**
+     * setTitle устанавливает значение title. title - название задачи.
+     */
 
     public void setTitle(String title) {
 
         this.title = title;
     }
 
+
+    /**
+     * isActive возвращает значение active. active - индикатор активности задачи.
+     */
+
     public boolean isActive() {
 
         return active;
     }
+
+
+    /**
+     * setActive устанавливает значение active.
+     * Дополнительно с помощью конструкции if мы задали условие - если start или time < или = 0,
+     * то active имеет значение false, иначе, active имеет значение true.
+     */
 
     public void setActive(boolean active) {
         this.active = active;
@@ -35,6 +55,10 @@ public class Task {
         }
     }
 
+    /**
+     * Метод setTime устанавливает значение time.
+     */
+
     public void setTime(int time) {
         this.time = time;
         this.repeat = 0;
@@ -42,12 +66,23 @@ public class Task {
 
     }
 
+
+    /**
+     * Метод setTime устанавливает значение start, end, repeat.
+     */
+
     public void setTime(int start, int end, int repeat) {
         this.start = start;
         this.end = end;
         this.repeat = repeat;
         this.repeated = true;
     }
+
+
+    /**
+     * Метод getTime возвращает значение time если repeated имеет значение false,
+     * если repeated = true возвращает start
+     */
 
     public int getTime() {
         if (repeated == false) {
@@ -57,6 +92,12 @@ public class Task {
         }
     }
 
+
+    /**
+     * Метод getStartTime возвращает значение time если repeated имеет значение false,
+     * если repeated = true возвращает start
+     */
+
     public int getStartTime() {
         if (repeated == true) {
             return start;
@@ -64,6 +105,11 @@ public class Task {
             return time;
         }
     }
+
+
+    /**
+     * Метод getEndTime возвращает значение end, если repeated = true. В другом случае возвращает time.
+     */
 
     public int getEndTime() {
         if (repeated == true) {
@@ -74,13 +120,24 @@ public class Task {
 
     }
 
+
+    /**
+     * Метод getRepeatInterval возвращает значение repeat = 0, если repeated = false.
+     * Иначе возвращает значение repeat.
+     */
+
     public int getRepeatInterval() {
         if (repeated == false) {
             repeat = 0;
         }
-
         return repeat;
     }
+
+
+    /**
+     * Метод isRepeated возвращает значение repeated. Если repeat <= 0, то repeated = false.
+     * Иначе возвращает значение repeated = true.
+     */
 
     public boolean isRepeated() {
         if (repeat <= 0) {
@@ -91,6 +148,10 @@ public class Task {
         return repeated;
     }
 
+
+    /**
+     * Метод toString преобразует данные в строковый вид.
+     */
 
     public String toString() {
         if (active == false) {
@@ -105,12 +166,18 @@ public class Task {
         return "sorry";
     }
 
+
+    /**
+     * nextTimeAfter метод возвращающий время следующего оповещения. Если после указанного времени оповещений больше
+     * нет или задача неактивна, то результат должен быть -1.
+     */
+
     public int nextTimeAfter(int time) {
         if (active) {
             if (!repeated && time < this.time) return this.time;
             if (repeated && time < start) return start;
             if (repeated && time > end) return -1;
-            if (repeated && time >= start && time < end){
+            if (repeated && time >= start && time < end) {
                 int i = start + repeat;
                 while (i < end) {
                     if (time < i) {
@@ -126,10 +193,19 @@ public class Task {
         }
     }
 
+
+    /**
+     * Конструктор класса Task для единоразовой задачи.
+     */
     public Task(String title, int time) {
         this.title = title;
         this.time = time;
     }
+
+
+    /**
+     * Конструктор класса Task для повторяющейся задачи.
+     */
 
     public Task(String title, int start, int end, int repeat) {
         this.title = title;
