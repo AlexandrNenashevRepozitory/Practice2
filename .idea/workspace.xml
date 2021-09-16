@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="307e514a-f9ff-4424-ac8b-5533157de5b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-all-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nc/edu/ta/AlexandrNenashev/pr2/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nc/edu/ta/AlexandrNenashev/pr2/tests/TaskTestFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nc/edu/ta/AlexandrNenashev/pr2/tests/TaskTestPartial.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xXP44AG8YByDlleFUjgnexp9C1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="JUnit.TaskTestFull">
+    <configuration name="TaskTestFull (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.TaskTestFull" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTestFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.TaskTestFull" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTestFull.testNextRepeative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.TaskTestFull" />
+      <option name="METHOD_NAME" value="testNextRepeative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTestFull.testToStringRepeative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.TaskTestFull" />
+      <option name="METHOD_NAME" value="testToStringRepeative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTestPartial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.nc.edu.ta.AlexandrNenashev.pr2.tests.TaskTestPartial" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TaskTestFull" />
+        <item itemvalue="JUnit.TaskTestPartial" />
+        <item itemvalue="JUnit.TaskTestFull (1)" />
+        <item itemvalue="JUnit.TaskTestFull.testNextRepeative" />
+        <item itemvalue="JUnit.TaskTestFull.testToStringRepeative" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="307e514a-f9ff-4424-ac8b-5533157de5b6" name="Changes" comment="" />
+      <created>1630498268625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630498268625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
